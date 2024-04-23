@@ -21,7 +21,7 @@ jobs:
           lfs: false
       
       - name: Install Dependencies Of Vite
-        run: npm install
+        run: npm i vite
       - name: Build
         run: npm run build
 
@@ -35,6 +35,8 @@ jobs:
         with:
           submodules: true
           lfs: false
+      - name: Install Dependencies Of Jest
+        run: npm install --save-dev jest babel-jest @babel/preset-env @babel/preset-react react-test-renderer
       - name: Test
         run: npm run test
 
