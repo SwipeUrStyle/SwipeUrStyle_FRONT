@@ -21,7 +21,7 @@ jobs:
           lfs: false
       
       - name: Install Dependencies Of Vite
-        run: npm i vite
+        run: npm install
       - name: Build
         run: npm run build
 
