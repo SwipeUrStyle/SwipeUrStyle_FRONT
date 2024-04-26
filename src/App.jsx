@@ -1,22 +1,17 @@
-import Clients from "./components/Clients";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Works from "./components/Works";
-import Reviews from "./components/Reviews";
-import Services from "./components/Services";
-import Footer from "./components/Footer";
+import React from 'react';
+import { Hero, Navbar, Courses, Reviews, Footer } from './components';
+import './App.css'
 
-function App() {
+const App = () => {
   return (
     <div>
-      <Header />
+      <Navbar />
       <Hero />
+      <Courses />
       <Reviews />
-      <Clients />
-      {/* <Services /> */}
       <Footer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
