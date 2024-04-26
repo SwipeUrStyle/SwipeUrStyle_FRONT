@@ -49,14 +49,14 @@ jobs:
     name: Deploy Job
     needs: test_job
     steps:
-      - uses: actions/checkout@v4
-        with:
-          submodules: true
-          lfs: false
       - uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'npm'
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+          lfs: false
       - name: Deploy
         uses: Azure/static-web-apps-deploy@v1
         with:
