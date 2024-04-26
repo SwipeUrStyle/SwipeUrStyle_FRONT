@@ -1,102 +1,73 @@
-import React from "react";
-// Icons
-import {
-  RiCheckboxBlankCircleFill,
-  RiInstagramLine,
-  RiFacebookLine,
-  RiTwitterLine,
-  RiGithubLine,
-} from "react-icons/ri";
+import React from 'react'
+import { logo } from '../assets'
+import {FaFacebookF,FaDribbble,FaLinkedinIn,FaInstagram,FaBehance} from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <footer className="bg-footer p-8 xl:p-20">
-      <div className="flex flex-col md:flex-row items-center justify-between gap-4 border-b border-gray-500 pb-8">
-        {/* Logo */}
-        <div className="w-1/6">
-          <a
-            href="#"
-            className="text-2xl font-bold relative p-1 bg-footer text-white"
-          >
-            Swipe Ur Style<span className="text-primary text-5xl">.</span>{" "}
-          </a>
-        </div>
-        {/* Social media */}
-        <nav className="flex items-center gap-4">
-          <a href="#" className="block text-white p-4 bg-primary rounded-full">
-            {" "}
-            <RiInstagramLine />{" "}
-          </a>
-          <a href="#" className="block text-white p-4 bg-primary rounded-full">
-            {" "}
-            <RiFacebookLine />{" "}
-          </a>
-          <a href="#" className="block text-white p-4 bg-primary rounded-full">
-            {" "}
-            <RiTwitterLine />{" "}
-          </a>
-          <a href="#" className="block text-white p-4 bg-primary rounded-full">
-            {" "}
-            <RiGithubLine />{" "}
-          </a>
-        </nav>
-      </div>
-      <div className="mt-8">
-        <h3 className="text-lg font-bold text-white text-center md:text-left">
-          Company
-        </h3>
-        <nav className="mt-4 flex flex-col md:flex-row items-center justify-between gap-4">
-          <a
-            href="#"
-            className="text-gray-300 mt-4 hover:text-white transition-colors"
-          >
-            About Us
-          </a>
-          <a
-            href="#"
-            className="text-gray-300 mt-4 hover:text-white transition-color"
-          >
-            Press
-          </a>
-          <a
-            href="#"
-            className="text-gray-300 mt-4 hover:text-white transition-color"
-          >
-            Investors
-          </a>
-          <a
-            href="#"
-            className="text-gray-300 mt-4 hover:text-white transition-color"
-          >
-            Events
-          </a>
-          <a
-            href="#"
-            className="text-gray-300 mt-4 hover:text-white transition-color"
-          >
-            Terms of use
-          </a>
-          <a
-            href="#"
-            className="text-gray-300 mt-4 hover:text-white transition-color"
-          >
-            Privacy policy
-          </a>
-          <button
-            type="button"
-            className="font-semibold py-2 px-6 bg-primary text-white rounded-xl"
-          >
-            Contact Us
-          </button>
-        </nav>
-      </div>
-      <div className="mt-20">
-        <p className="text-gray-300 text-center">
-          © CVDS 2024 - All Rights Reserved
-        </p>
-      </div>
-    </footer>
-  );
-};
+    <div className='w-full bg-green py-24'>
+        <div className='md:max-w-[1480px] m-auto grid md:grid-cols-5 max-[780px]:grid-cols-2  gap-8 max-w-[600px]  px-4 md:px-0'>
+            
+            <div className='col-span-2'>
+                <img src={logo} className="h-[25px]" />
+                <h3 className='text-2xl font-bold mt-10'>Contact Us</h3>
+                <h3 className='py-2 text-[#6D737A]'>Call : +123 400 123</h3>
 
-export default Footer;
+                <h3 className='py-2 text-[#363A3D]'>Email: example@mail.com</h3>
+                <div className='flex gap-4 py-4'>
+                        <div className='p-4 bg-[#E9F8F3] rounded-xl'><FaFacebookF size={25} style={{color:'#706fe5'}} /></div>
+                        <div className='p-4 bg-[#E9F8F3] rounded-xl'><FaDribbble size={25} style={{color:'#706fe5'}} /></div>
+                        <div className='p-4 bg-[#E9F8F3] rounded-xl'><FaLinkedinIn size={25} style={{color:'#706fe5'}} /></div>
+                        <div className='p-4 bg-[#E9F8F3] rounded-xl'><FaInstagram size={25} style={{color:'#706fe5'}} /></div>
+                        <div className='p-4 bg-[#E9F8F3] rounded-xl'><FaBehance size={25} style={{color:'#706fe5'}} /></div>
+
+                </div>
+
+            </div>
+
+            <div>
+                <h3 className='text-2xl font-bold'>Explore</h3>
+                <ul className='py-6 text-[#6D737A]'>
+                    <li className='py-2'>Home</li>
+                    <li className='py-2'>About</li>
+                    <li className='py-2'>Course</li>
+                    <li className='py-2'>Blog</li>
+                    <li className='py-2'>Contact</li>
+
+                </ul>
+            </div>
+
+            <div>
+                <h3 className='text-2xl font-bold'>Category</h3>
+                <ul className='py-6 text-[#6D737A]'>
+                    <li className='py-2'>Design</li>
+                    <li className='py-2'>Development</li>
+                    <li className='py-2'>Marketing</li>
+                    <li className='py-2'>Business</li>
+                    <li className='py-2'>Lifestyle</li>
+                    <li className='py-2'>Photography</li>
+                    <li className='py-2'>Music</li>
+
+                </ul>
+            </div>
+
+            <div className='max-[780px]:col-span-2'>
+                <h3 className='text-2xl font-bold'>Subscribe</h3>
+                <h3 className='py-2 text-[#6D737A]'>Praesent nulla massa, hendrerit <br></br> vestibulum gravida in, feugiat auctor felis.</h3>
+                <form className='py-4'>
+                    <input 
+                        className='bg-[#F2F3F4] p-4 w-full rounded' 
+                        placeholder='Email here' 
+                    />
+                    <button className='max-[780px]:w-full my-4 px-5 py-3 rounded-md bg-[#706fe5] text-white font-medium'>Subscribe Now</button>
+
+                </form>
+
+
+            </div>
+        
+        </div>
+    </div>
+  )
+}
+
+export default Footer

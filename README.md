@@ -1,23 +1,13 @@
-## 🚀 Como ejecutarlo en local
+﻿# Build An Awesome Landing Page in ReactJS & TailwindCSS! 
+![alt text](https://github.com/TECHCROWDMY/practice-landing-page/blob/main/cover.jpg?raw=true)
 
-Necesitarás tener instalado ``` node.js ``` a partir de la versión 14 y tener acceso a una terminal para seguir los siguientes pasos:
->
-1. Necesitamos clonar el proyecto añadiendo la siguiente linea de comando en una terminal
-```
-git clone https://github.com/jotredev/landingpage-webdesign.git
-```
->
-2. Entramos a la carpeta que acabamos de clonar e instalamos las dependencias necesarias
-```
-npm install
-#
-yarn
-```
->
-3. Ejecutamos nuestro proyecto en local
-```
-npm dev
-#
-yarn dev
-```
+
+1. Clone the repository.
+2. Run npm install command.     ```npm install```
+3. Run npm run dev.     ```npm run dev```
+
+
+
+
+
 
