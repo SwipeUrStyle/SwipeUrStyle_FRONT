@@ -15,7 +15,7 @@ const Hero = () => {
                     {/* <p className='py-2 text-2xl text-[#706fe5] font-medium'>START TO SUCCESS</p> */}
                     <h1 className='md:leading-[80px] py-2 md:text-6xl text-5xl font-extrabold 800'>Swipe Ur <span className='text-[#706fe5]'>Style</span>
                     </h1>
-                    <p className='py-2 text-lg text-2xl text-gray-600 font-medium'>Tu estilo, tu armario, tu elección. Explora infinitas combinaciones, crea looks únicos y muestra tu estilo con confianza. Con Swipe Ur Style, tu armario virtual que te inspira para brillar en cada ocasión.</p>
+                    <p className='py-2 text-lg text-2xl text-gray-600 font-medium'>Your style, your wardrobe, your choice. Explore endless combinations, create unique looks and show off your style with confidence. With Swipe Ur Style, your virtual wardrobe that inspires you to shine on every occasion.</p>
 
                     <button onClick={redirectToPage} className='px-8 py-3 rounded-md bg-[#706fe5] text-white font-bold'>Start</button>
                 </div>

@@ -66,8 +66,8 @@ const Courses = () => {
     <div className='w-full bg-[#E9F8F3B2] py-32'>
       <div className='container mx-auto'>
         <div className='text-center'>
-          <h1 className='py-3 text-3xl font-bold'>Escoge entre tu ropa <span className='text-[#706fe5]'>favorita</span></h1>
-          <p className='text-[#6D737A]'>Various versions have evolved over the years, sometimes by accident.</p>
+          <h1 className='py-3 text-3xl font-bold'>Choose from your favorite <span className='text-[#706fe5]'>clothes</span></h1>
+          <p className='text-[#6D737A]'>Slide your options.</p>
         </div>
         <div className='grid md:grid-cols-3 '>
           <div></div>
