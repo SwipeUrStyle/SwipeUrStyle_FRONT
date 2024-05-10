@@ -2,7 +2,7 @@
   "name": "landing-page",
   "private": true,
   "version": "2.0.0",
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -13,7 +13,6 @@
   "dependencies": {
     "@babel/core": "^7.24.4",
     "jest-environment-jsdom": "^29.7.0",
-    "module_name": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
