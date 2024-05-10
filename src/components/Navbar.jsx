@@ -36,7 +36,8 @@ const Navbar = () => {
                 <ul>
                     <li className='p-4 hover:bg-black-100'>Home</li>
                     <li className='p-4 hover:bg-black-100'>Our services</li>
-                    <li className='p-4 hover:bg-black-100'>About Us</li>
+                    <li className='p-4 hover:bg-black-100'>About Ust</li>
+
                     <div className='flex flex-col my-4 gap-4'>
                         <button onClick={redirectToLogin} className='border border-[#706fe5] flex justify-center items-center  bg-transparent  px-6 gap-2 py-4'>
                             <img src={lock} />
@@ -44,10 +45,12 @@ const Navbar = () => {
                         </button>
                         <button onClick={redirectToSignUp} className='px-8 py-5 rounded-md bg-[#706fe5] text-white font-bold'>Sign Up For Free</button>
                     </div>
-                </ul>
-            </div>
+            </ul>
         </div>
-    );
+        
+        
+    </div>
+  )
 }
 
-export default Navbar;
+export default Navbar
