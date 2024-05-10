@@ -15,14 +15,14 @@ const Reviews = () => {
       <div className="container mx-auto">
         <div className="p-8 flex flex-col gap-8 bg-gray-100">
           <h1 className="md:leading-[80px] py-2 md:text-6xl text-5xl font-extrabold 800 text-center" >
-            Nuestro Equipo de Trabajo
+            Our Development Team
           </h1>
           <div className="flex justify-center gap-4">
             <span className="text-6xl text-primary">
               <RiDoubleQuotesL />
             </span>
             <p className="max-w-2xl text-allign text-lg lg:text-xl text-gray-500">
-              En <span className="py-2 text-lg text-2xl text-gray-600 font-medium"><strong>DevOpsElite</strong></span>, somos un equipo apasionado y diverso de desarrolladores, diseñadores y entusiastas de la moda unidos por una visión común: simplificar y mejorar tu experiencia diaria de vestirte. Con una combinación única de habilidades técnicas y un profundo conocimiento de las tendencias de la moda, hemos unido fuerzas para crear una aplicación revolucionaria que transformará la forma en que te relacionas con tu armario.
+              En <span className="py-2 text-lg text-2xl text-gray-600 font-medium"><strong>At DevOpsElite</strong></span>, we are a passionate and diverse team of developers, designers, and fashion enthusiasts united by a common vision: to simplify and improve your daily getting dressed experience. With a unique combination of technical skills and a deep understanding of fashion trends, we have joined forces to create a revolutionary app that will transform the way you interact with your wardrobe.
             </p>
             <span className="text-6xl text-primary">
               <RiDoubleQuotesR />
