@@ -1,0 +1,28 @@
+.Options {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-bottom: 2px solid #ccc; 
+  }
+  
+  .btn {
+    flex: 1;
+    border: none;
+    padding: 5px;
+    font-size: 14px; 
+    text-align: center;
+    background-color: #fff;
+    color: #ccc;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Arial'; 
+  }
+  
+  .btn:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .btn.active {
+    color: #000; 
+    border-bottom: 2px solid #000; 
+  }
